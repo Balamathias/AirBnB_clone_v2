@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+        {% if title %}
+            {{ title }} - HBNB
+        {% else %}
+            HBNB
+        {% endif %}
+    </title>
+  </head>
+  <body class='mx-auto max-w-7xl p-4 bg-slate-950 text-slate-50'>
+    {% block content %}
+    {% endblock content %}
+  </body>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+<html>
